@@ -1,0 +1,28 @@
+2021-04-07 09:59:40.500 [main] INFO  com.xh.eduservice.EduApplication - Starting EduApplication using Java 15.0.1 on DESKTOP-EP7J8JT with PID 11652 (F:\Study\Java_Study\yaher\service\service_edu\target\classes started by Xianhe Zhou in F:\Study\Java_Study\yaher)
+2021-04-07 09:59:40.500 [main] INFO  com.xh.eduservice.EduApplication - The following profiles are active: dev
+2021-04-07 09:59:48.796 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-07 09:59:48.812 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-07 09:59:49.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 0 Redis repository interfaces.
+2021-04-07 09:59:54.701 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-04-07 09:59:54.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-04-07 09:59:54.826 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-07 09:59:54.826 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-07 09:59:55.311 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-07 09:59:55.311 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13981 ms
+2021-04-07 09:59:56.701 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-07 10:00:05.348 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-07 10:00:08.582 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-07 10:00:08.910 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 10:00:13.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-04-07 10:00:13.697 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-04-07 10:00:13.697 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-07 10:00:14.112 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-07 10:00:14.221 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-07 10:00:14.600 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2021-04-07 10:00:14.631 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2021-04-07 10:00:14.651 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2021-04-07 10:00:14.666 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPOST_1
+2021-04-07 10:00:14.797 [main] INFO  com.xh.eduservice.EduApplication - Started EduApplication in 39.178 seconds (JVM running for 47.775)
+2021-04-07 10:01:47.591 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 10:01:47.591 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-07 10:01:47.591 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
