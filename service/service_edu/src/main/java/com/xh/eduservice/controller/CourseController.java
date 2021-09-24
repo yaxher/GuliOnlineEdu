@@ -33,9 +33,6 @@ public class CourseController {
     @Autowired
     EduChapterService eduChapterService;
 
-//    @Autowired
-//    OrderClient orderClient;
-
     @ApiOperation(value = "分页课程列表")
     @PostMapping(value = "{page}/{limit}")
     public R pageList(
